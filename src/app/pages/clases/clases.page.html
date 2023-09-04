@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalle Clases</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Baile Entretenido</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Una clase de baile entretenido es una actividad grupal donde las personas aprenden y practican movimientos de
+      baile de manera divertida y desenfadada, con música animada y coreografías fáciles de seguir. El objetivo
+      principal es disfrutar mientras se mejora la condición física y se libera el estrés a través del baile.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" size-md="4" size-lg="2">
+        <ion-card class="custom-card">
+          <ion-card-header>
+            <ion-card-title>Cupos</ion-card-title>
+          </ion-card-header>
+            
+          <ion-card-content>
+            0 Cupos Disponibles
+            5 Cupos Lista de Espera
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4" size-lg="2">
+        <ion-card class="custom-card">
+          <ion-card-header>
+            <ion-card-title>Horarios</ion-card-title>
+          </ion-card-header>
+      
+          <ion-card-content>
+            5:30 - 6:30
+            Viernes, Abril 26
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://img.freepik.com/fotos-premium/retrato-profesora-entusiasta-energica-gimnasio-ropa-entrenamiento_928211-15038.jpg?w=2000" />
+    <ion-card-header>
+      <ion-card-title>Profesora: Nora Simson</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-button id="open-toast">Reservar</ion-button>
+<ion-toast trigger="open-toast" message="Clase reservada" [duration]="3000" icon="person-add-outline" position="middle"></ion-toast>
+  
+</ion-content>
+

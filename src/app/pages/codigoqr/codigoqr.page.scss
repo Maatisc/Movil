@@ -1,0 +1,30 @@
+ion-content {
+   --background: url('https://thumbs.dreamstime.com/b/etiqueta-de-c%C3%B3digo-qr-realista-en-fondo-gris-seguimiento-identificaci%C3%B3n-n%C3%BAmero-serie-id-producto-con-digital-informaci%C3%B3n-243498854.jpg') no-repeat center center / cover;
+  }
+
+/* Estilos para el contenedor de mat-slide-toggle */
+.slide-toggle-container {
+  position:initial;
+  margin-bottom: 55px;
+  bottom: 10px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+  width: 50%; /* Asegura que ocupe todo el ancho */
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Estilos para el mat-slide-toggle */
+mat-slide-toggle {
+  transform: scale(1.1); /* Ajusta el tamaño según sea necesario */
+  margin-bottom: 10px; /* Ajusta la distancia entre los mat-slide-toggles */
+}
+
+ion-toast{
+  width: 50%;
+  transform: scale(1.1);
+}
+
